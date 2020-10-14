@@ -8,16 +8,19 @@ def index(request):
     dest1.price=1000
     dest1.desc='Visit the Gateway to India\'s heart'
     dest1.img='destination_3.jpg'
+    dest1.offer=False
 
     dest2=Destination()
     dest2.name='Agra'
     dest2.img='destination_4.jpg'
     dest2.price=1200
+    dest2.offer=True
     dest2.desc='Welcome to the one of the 7 wonders'
 
     dest3=Destination()
     dest3.name='Jaipur'
     dest3.price=900
+    dest3.offer=True
     dest3.img='destination_5.jpg'
     dest3.desc='Padharo mare desh'
 
